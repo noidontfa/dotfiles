@@ -17,5 +17,4 @@ return {
   { import = "astrocommunity.icon.mini-icons" },
   -- { import = "astrocommunity.fuzzy-finder.fzf-lua" },
   { import = "astrocommunity.git.diffview-nvim" },
-  { import = "astrocommunity.motion.tabout-nvim" },
 }
