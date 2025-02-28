@@ -8,5 +8,8 @@ return {
       position = "right",
       width = 50,
     },
+    filesystem = {
+      follow_current_file = true,
+    },
   },
 }

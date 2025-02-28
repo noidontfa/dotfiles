@@ -36,6 +36,12 @@ return {
       cursor = {
         timing = function(_, n) return 20 / n end,
       },
+      open = {
+        enable = false,
+      },
+      close = {
+        enable = false,
+      },
     }
   end,
   specs = {
