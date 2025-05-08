@@ -1,3 +1,5 @@
+if true then return {} end
+
 return {
   "echasnovski/mini.animate",
   event = "VeryLazy",
@@ -34,6 +36,7 @@ return {
         },
       },
       cursor = {
+        enable = false,
         timing = function(_, n) return 20 / n end,
       },
       open = {

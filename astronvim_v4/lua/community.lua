@@ -6,7 +6,7 @@
 return {
   "AstroNvim/astrocommunity",
   { import = "astrocommunity.pack.lua" },
-  -- import/override with your plugins folder
+  -- { import = "astrocommunity.colorscheme.citruszest-nvim" },
   { import = "astrocommunity.pack.typescript" },
   { import = "astrocommunity.utility.hover-nvim" },
   { import = "astrocommunity.pack.php" },
@@ -14,8 +14,11 @@ return {
   { import = "astrocommunity.editing-support.vim-visual-multi" },
   { import = "astrocommunity.colorscheme.monokai-pro-nvim" },
   { import = "astrocommunity.icon.mini-icons" },
+  -- { import = "astrocommunity.fuzzy-finder.fzf-lua" },
+  { import = "astrocommunity.git.diffview-nvim" },
   { import = "astrocommunity.pack.go" },
   { import = "astrocommunity.pack.python" },
   { import = "astrocommunity.pack.ruby" },
   { import = "astrocommunity.lsp.ts-error-translator-nvim" },
+  -- { import = "astrocommunity.pack.laravel" },
 }
